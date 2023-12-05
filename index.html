@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>EarthLink Account Deletion</title>
+    <title>EarthLink Account Services</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -30,11 +30,26 @@
         a:hover {
             text-decoration: underline;
         }
+        .report-section {
+            margin-top: 20px;
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #006699;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Request Account Deletion</h1>
+        <h1>EarthLink Account Services</h1>
         <p>
             We're sorry to see you go! If you wish to delete your EarthLink account, please send us an email with your request. Our team will process your request and ensure all your data is securely removed from our servers.
         </p>
@@ -50,23 +65,20 @@
         <p>
             If you have any questions or need assistance, feel free to contact us at the same email address. We're here to help!
         </p>
-        <h1>Submit a Report</h1>
-        <p>
-            If you encounter any issues or have feedback, please let us know.
-        </p>
-        <form action="/submit-report" method="post">
-            <textarea name="report" rows="4" cols="50" placeholder="Describe your issue or feedback"></textarea>
-            <br>
-            <input type="submit" value="Submit Report">
-        </form>
-        <h1>Download Our App</h1>
-        <p>
-            Get the full EarthLink experience by downloading our app.
-        </p>
-        <a href="https://drive.google.com/file/d/1NconTubbxmQeVo5JfNW9pbuyHlZMdmC6/view?usp=sharing" download="EarthLinkApp.apk">
-            <button type="button">Download APK</button>
-        </a>
 
+        <!-- Report a User Section -->
+        <div class="report-section">
+            <h2>Report a User</h2>
+            <p>
+                If you need to report another user for any reason, please send an email to <a href="mailto:manas.s.malla@vanderbilt.edu">manas.s.malla@vanderbilt.edu</a> with the details of the issue. Our team will investigate and take appropriate action.
+            </p>
+        </div>
+
+	<h2>Download the App</h2>
+        <!-- Button to Direct User to a Link -->
+        <div class="button-container">
+            <a href="https://drive.google.com/file/d/1NconTubbxmQeVo5JfNW9pbuyHlZMdmC6/view?usp=sharing" class="button">Download the EarthLink app here!</a>
+        </div>
     </div>
 </body>
 </html>
